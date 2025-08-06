@@ -14,7 +14,7 @@ targets:
         sourceRevisionDigest: sha256:0d17a4f4e032fe17e3323d4fb3d12035cf61f4796a8137683bed66423593567e
         sourceBlobDigest: sha256:de2acefc03c0f02e7d091c58eb0ba357e4c0e9fae858eb2d28ffc0f1580d0a3d
         codeSamplesNamespace: petstore-oas-python-code-samples
-        codeSamplesRevisionDigest: sha256:cb2b03ce2aa7848945c48f67fe256f0b93a011e09b462e4162fd52bc37af23a8
+        codeSamplesRevisionDigest: sha256:002bb710e7710a24e88dc6518aa60419cf13d12063a7dbe493dbc1a2c5fef542
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
