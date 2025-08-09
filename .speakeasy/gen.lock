@@ -3,15 +3,17 @@ id: c574f7eb-3d94-405e-9cb5-7ff3bd0e9d42
 management:
   docChecksum: 03e3387365ae18c7ce07d32543a62956
   docVersion: 1.0.0
-  speakeasyVersion: 1.596.1
-  generationVersion: 2.672.0
-  releaseVersion: 0.0.3
-  configChecksum: 53d78797389cad46114fb7dbe877c769
+  speakeasyVersion: 1.600.2
+  generationVersion: 2.677.3
+  releaseVersion: 0.0.4
+  configChecksum: 139ed750fd2d57af387755a0f89a46ea
+  repoURL: https://github.com/GorshkovIvan/PokeSDKTest.git
+  installationURL: https://github.com/GorshkovIvan/PokeSDKTest.git
 features:
   python:
     additionalDependencies: 1.0.0
     constsAndDefaults: 1.0.5
-    core: 5.19.6
+    core: 5.19.7
     defaultEnabledRetries: 0.2.0
     devContainers: 3.0.0
     enumUnions: 0.1.0
@@ -70,6 +72,7 @@ generatedFiles:
   - py.typed
   - pylintrc
   - pyproject.toml
+  - scripts/prepare_readme.py
   - scripts/publish.sh
   - src/petstore/__init__.py
   - src/petstore/_hooks/__init__.py
