@@ -30,22 +30,22 @@ For more information about the API: [Find out more about Swagger](http://swagger
 <!-- Start Table of Contents [toc] -->
 ## Table of Contents
 <!-- $toc-max-depth=2 -->
-* [petstore](#petstore)
-  * [SDK Installation](#sdk-installation)
-  * [IDE Support](#ide-support)
-  * [SDK Example Usage](#sdk-example-usage)
-  * [Authentication](#authentication)
-  * [Available Resources and Operations](#available-resources-and-operations)
-  * [File uploads](#file-uploads)
-  * [Retries](#retries)
-  * [Error Handling](#error-handling)
-  * [Server Selection](#server-selection)
-  * [Custom HTTP Client](#custom-http-client)
-  * [Resource Management](#resource-management)
-  * [Debugging](#debugging)
-* [Development](#development)
-  * [Maturity](#maturity)
-  * [Contributions](#contributions)
+* [petstore](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#petstore)
+  * [SDK Installation](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#sdk-installation)
+  * [IDE Support](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#ide-support)
+  * [SDK Example Usage](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#sdk-example-usage)
+  * [Authentication](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#authentication)
+  * [Available Resources and Operations](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#available-resources-and-operations)
+  * [File uploads](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#file-uploads)
+  * [Retries](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#retries)
+  * [Error Handling](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#error-handling)
+  * [Server Selection](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#server-selection)
+  * [Custom HTTP Client](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#custom-http-client)
+  * [Resource Management](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#resource-management)
+  * [Debugging](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#debugging)
+* [Development](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#development)
+  * [Maturity](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#maturity)
+  * [Contributions](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#contributions)
 
 <!-- End Table of Contents [toc] -->
 
@@ -216,33 +216,33 @@ with Petstore(
 <details open>
 <summary>Available methods</summary>
 
-### [pet](docs/sdks/petsdk/README.md)
+### [pet](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/petsdk/README.md)
 
-* [update_pet](docs/sdks/petsdk/README.md#update_pet) - Update an existing pet
-* [add_pet](docs/sdks/petsdk/README.md#add_pet) - Add a new pet to the store
-* [find_pets_by_status](docs/sdks/petsdk/README.md#find_pets_by_status) - Finds Pets by status
-* [find_pets_by_tags](docs/sdks/petsdk/README.md#find_pets_by_tags) - Finds Pets by tags
-* [get_pet_by_id](docs/sdks/petsdk/README.md#get_pet_by_id) - Find pet by ID
-* [delete_pet](docs/sdks/petsdk/README.md#delete_pet) - Deletes a pet
-* [upload_file](docs/sdks/petsdk/README.md#upload_file) - uploads an image
+* [update_pet](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/petsdk/README.md#update_pet) - Update an existing pet
+* [add_pet](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/petsdk/README.md#add_pet) - Add a new pet to the store
+* [find_pets_by_status](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/petsdk/README.md#find_pets_by_status) - Finds Pets by status
+* [find_pets_by_tags](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/petsdk/README.md#find_pets_by_tags) - Finds Pets by tags
+* [get_pet_by_id](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/petsdk/README.md#get_pet_by_id) - Find pet by ID
+* [delete_pet](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/petsdk/README.md#delete_pet) - Deletes a pet
+* [upload_file](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/petsdk/README.md#upload_file) - uploads an image
 
 
-### [store](docs/sdks/store/README.md)
+### [store](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/store/README.md)
 
-* [get_inventory](docs/sdks/store/README.md#get_inventory) - Returns pet inventories by status
-* [place_order](docs/sdks/store/README.md#place_order) - Place an order for a pet
-* [get_order_by_id](docs/sdks/store/README.md#get_order_by_id) - Find purchase order by ID
-* [delete_order](docs/sdks/store/README.md#delete_order) - Delete purchase order by ID
+* [get_inventory](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/store/README.md#get_inventory) - Returns pet inventories by status
+* [place_order](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/store/README.md#place_order) - Place an order for a pet
+* [get_order_by_id](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/store/README.md#get_order_by_id) - Find purchase order by ID
+* [delete_order](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/store/README.md#delete_order) - Delete purchase order by ID
 
-### [user](docs/sdks/usersdk/README.md)
+### [user](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/usersdk/README.md)
 
-* [create_user](docs/sdks/usersdk/README.md#create_user) - Create user
-* [create_users_with_list_input](docs/sdks/usersdk/README.md#create_users_with_list_input) - Creates list of users with given input array
-* [login_user](docs/sdks/usersdk/README.md#login_user) - Logs user into the system
-* [logout_user](docs/sdks/usersdk/README.md#logout_user) - Logs out current logged in user session
-* [get_user_by_name](docs/sdks/usersdk/README.md#get_user_by_name) - Get user by user name
-* [update_user](docs/sdks/usersdk/README.md#update_user) - Update user
-* [delete_user](docs/sdks/usersdk/README.md#delete_user) - Delete user
+* [create_user](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/usersdk/README.md#create_user) - Create user
+* [create_users_with_list_input](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/usersdk/README.md#create_users_with_list_input) - Creates list of users with given input array
+* [login_user](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/usersdk/README.md#login_user) - Logs user into the system
+* [logout_user](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/usersdk/README.md#logout_user) - Logs out current logged in user session
+* [get_user_by_name](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/usersdk/README.md#get_user_by_name) - Get user by user name
+* [update_user](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/usersdk/README.md#update_user) - Update user
+* [delete_user](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/docs/sdks/usersdk/README.md#delete_user) - Delete user
 
 </details>
 <!-- End Available Resources and Operations [operations] -->
@@ -331,7 +331,7 @@ with Petstore(
 <!-- Start Error Handling [errors] -->
 ## Error Handling
 
-[`PetstoreError`](./src/petstore/errors/petstoreerror.py) is the base class for all HTTP error responses. It has the following properties:
+[`PetstoreError`](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/./src/petstore/errors/petstoreerror.py) is the base class for all HTTP error responses. It has the following properties:
 
 | Property           | Type             | Description                                                                             |
 | ------------------ | ---------------- | --------------------------------------------------------------------------------------- |
@@ -340,7 +340,7 @@ with Petstore(
 | `err.headers`      | `httpx.Headers`  | HTTP response headers                                                                   |
 | `err.body`         | `str`            | HTTP body. Can be empty string if no body is returned.                                  |
 | `err.raw_response` | `httpx.Response` | Raw HTTP response                                                                       |
-| `err.data`         |                  | Optional. Some errors may contain structured data. [See Error Classes](#error-classes). |
+| `err.data`         |                  | Optional. Some errors may contain structured data. [See Error Classes](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#error-classes). |
 
 ### Example
 ```python
@@ -381,7 +381,7 @@ with Petstore(
 
 ### Error Classes
 **Primary error:**
-* [`PetstoreError`](./src/petstore/errors/petstoreerror.py): The base class for HTTP error responses.
+* [`PetstoreError`](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/./src/petstore/errors/petstoreerror.py): The base class for HTTP error responses.
 
 <details><summary>Less common errors (8)</summary>
 
@@ -393,15 +393,15 @@ with Petstore(
     * [`httpx.TimeoutException`](https://www.python-httpx.org/exceptions/#httpx.TimeoutException): HTTP request timed out.
 
 
-**Inherit from [`PetstoreError`](./src/petstore/errors/petstoreerror.py)**:
-* [`APIErrorUnauthorized`](./src/petstore/errors/apierrorunauthorized.py): Unauthorized error. Status code `401`. Applicable to 12 of 18 methods.*
-* [`APIErrorNotFound`](./src/petstore/errors/apierrornotfound.py): Not Found error. Status code `404`. Applicable to 12 of 18 methods.*
-* [`APIErrorInvalidInput`](./src/petstore/errors/apierrorinvalidinput.py): Not Found error. Status code `400`. Applicable to 10 of 18 methods.*
-* [`ResponseValidationError`](./src/petstore/errors/responsevalidationerror.py): Type mismatch between the response data and the expected Pydantic model. Provides access to the Pydantic validation error via the `cause` attribute.
+**Inherit from [`PetstoreError`](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/./src/petstore/errors/petstoreerror.py)**:
+* [`APIErrorUnauthorized`](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/./src/petstore/errors/apierrorunauthorized.py): Unauthorized error. Status code `401`. Applicable to 12 of 18 methods.*
+* [`APIErrorNotFound`](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/./src/petstore/errors/apierrornotfound.py): Not Found error. Status code `404`. Applicable to 12 of 18 methods.*
+* [`APIErrorInvalidInput`](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/./src/petstore/errors/apierrorinvalidinput.py): Not Found error. Status code `400`. Applicable to 10 of 18 methods.*
+* [`ResponseValidationError`](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/./src/petstore/errors/responsevalidationerror.py): Type mismatch between the response data and the expected Pydantic model. Provides access to the Pydantic validation error via the `cause` attribute.
 
 </details>
 
-\* Check [the method documentation](#available-resources-and-operations) to see if the error is applicable.
+\* Check [the method documentation](https://github.com/GorshkovIvan/PokeSDKTest/blob/master/#available-resources-and-operations) to see if the error is applicable.
 <!-- End Error Handling [errors] -->
 
 <!-- Start Server Selection [server] -->
