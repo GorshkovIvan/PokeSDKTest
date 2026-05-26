@@ -5,8 +5,10 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 1.596.1
   generationVersion: 2.672.0
-  releaseVersion: 0.0.3
-  configChecksum: 53d78797389cad46114fb7dbe877c769
+  releaseVersion: 0.0.4
+  configChecksum: 8f21add98fb8c845cf24338fc756be0b
+  repoURL: https://github.com/GorshkovIvan/PokeSDKTest.git
+  installationURL: https://github.com/GorshkovIvan/PokeSDKTest.git
 features:
   python:
     additionalDependencies: 1.0.0
@@ -70,6 +72,7 @@ generatedFiles:
   - py.typed
   - pylintrc
   - pyproject.toml
+  - scripts/prepare_readme.py
   - scripts/publish.sh
   - src/petstore/__init__.py
   - src/petstore/_hooks/__init__.py
@@ -431,3 +434,398 @@ generatedTests:
   loginUser: "2025-08-06T18:54:12+01:00"
   getUserByName: "2025-08-06T18:54:12+01:00"
   deleteUser: "2025-08-06T18:54:12+01:00"
+trackedFiles:
+  .devcontainer/README.md:
+    last_write_checksum: sha1:c1dc46b2c743f76f40be85738371bddac83eb9eb
+  .devcontainer/devcontainer.json:
+    last_write_checksum: sha1:fbbce5654b8990b172a9ffe841d7635cd51c495b
+  .devcontainer/setup.sh:
+    last_write_checksum: sha1:36daffa8440cbf552f087c7953d70ef40e2c9d2e
+  .gitattributes:
+    last_write_checksum: sha1:53134de3ada576f37c22276901e1b5b6d85cd2da
+  .vscode/settings.json:
+    last_write_checksum: sha1:f84632c81029fcdda8c3b0c768d02b836fc80526
+  USAGE.md:
+    last_write_checksum: sha1:106dfb26678259dc9fd32f2d70de20d5fae5bfa4
+  docs/errors/apierrorinvalidinput.md:
+    last_write_checksum: sha1:6a8dac147ad60e28d45ed9cb0e2ed5dba86c02a8
+  docs/errors/apierrornotfound.md:
+    last_write_checksum: sha1:a6ccb439129626e61691418896fb09d079150a09
+  docs/errors/apierrorunauthorized.md:
+    last_write_checksum: sha1:b82d88a8f0ecbe521da4379d64510d8918b8d5f9
+  docs/models/apiresponse.md:
+    last_write_checksum: sha1:bc22b175bd5fe1048bfed875b4d9e29c78edafb9
+  docs/models/category.md:
+    last_write_checksum: sha1:bf2e8de1685a50635825c73cf3ab9b1b5c098e72
+  docs/models/deleteorderrequest.md:
+    last_write_checksum: sha1:00921e6b2a276793eb0136b002d6a40342aa1331
+  docs/models/deletepetrequest.md:
+    last_write_checksum: sha1:687d590afefec167e5572abcc822f9f75b1a38de
+  docs/models/deleteuserrequest.md:
+    last_write_checksum: sha1:9b38a7f5ee3cd0600a5e0dddb4af735f72d8800d
+  docs/models/findpetsbystatusrequest.md:
+    last_write_checksum: sha1:6266ff13c1c491666ca1198dab5854acb608e61f
+  docs/models/findpetsbystatusstatus.md:
+    last_write_checksum: sha1:4703b0de416f4ce677e24247be7d789483b250c2
+  docs/models/findpetsbytagsrequest.md:
+    last_write_checksum: sha1:0c6e9185cd6622fec7a6711381255c895963dd6d
+  docs/models/getorderbyidrequest.md:
+    last_write_checksum: sha1:babe5951a06b7f79699c93d7d3b54bc1fbf262a0
+  docs/models/getpetbyidrequest.md:
+    last_write_checksum: sha1:67725da2c2e7ffe9cee38d2fb8e45856d140558d
+  docs/models/getuserbynamerequest.md:
+    last_write_checksum: sha1:b887e45e79ef945cc93347175e77eaa0412c7fdc
+  docs/models/loginuserrequest.md:
+    last_write_checksum: sha1:91e9f588a40b0744b58b7da46bafe3a2df0a9cdc
+  docs/models/loginuserresponse.md:
+    last_write_checksum: sha1:ce694cea0e415643a19920e4be00947e5bef7ee0
+  docs/models/order.md:
+    last_write_checksum: sha1:40b23aa54500d1c1a06ed7d70aac7d41a8957c32
+  docs/models/orderstatus.md:
+    last_write_checksum: sha1:eaee150ba4339e1112abe990edb1fa0144904543
+  docs/models/pet.md:
+    last_write_checksum: sha1:0269846f58c39c729942d900edcbafd51947c1ff
+  docs/models/petstatus.md:
+    last_write_checksum: sha1:8db0a20de4ece0878248c03d33897dbd05f49c43
+  docs/models/security.md:
+    last_write_checksum: sha1:45b7b8881a6560a468153662d61b99605a492edf
+  docs/models/tag.md:
+    last_write_checksum: sha1:b48d925228af18527dc59b273f6937162aa61362
+  docs/models/updateuserrequest.md:
+    last_write_checksum: sha1:3117ace16e12346772fbc3018c9f02c53dc750d8
+  docs/models/uploadfilerequest.md:
+    last_write_checksum: sha1:a8113fa55fdf4fdb27ebc2de07925c1e07e9ff42
+  docs/models/user.md:
+    last_write_checksum: sha1:83bd63936a7ac98e7b45b03936908fadc76bf99f
+  docs/models/utils/retryconfig.md:
+    last_write_checksum: sha1:562c0f21e308ad10c27f85f75704c15592c6929d
+  docs/sdks/petsdk/README.md:
+    last_write_checksum: sha1:9ee28cfd5f8489bf895d41388aa29eac218494bf
+  docs/sdks/store/README.md:
+    last_write_checksum: sha1:dba66771b4f75e7a1fb1a73ae9d74ab4fdbb1a30
+  docs/sdks/usersdk/README.md:
+    last_write_checksum: sha1:c39bb541ce25a1919975e3ec3ade15456478637c
+  poetry.toml:
+    last_write_checksum: sha1:2242305e29dc6921bdf5b200aea5d4bf67830230
+  py.typed:
+    last_write_checksum: sha1:8efc425ffe830805ffcc0f3055871bdcdc542c60
+  pylintrc:
+    last_write_checksum: sha1:02d374417b71ebbc1bfa08d3e2bb8855b2299bc7
+  pyproject.toml:
+    last_write_checksum: sha1:63d1806bf690fceb44b6423cf8115cd74af409c8
+  scripts/prepare_readme.py:
+    last_write_checksum: sha1:d6422c9fb693a77a6df3764db95c317ca8cf2360
+  scripts/publish.sh:
+    last_write_checksum: sha1:b31bafc19c15ab5ea925fdf8d5d4adce2b115a63
+  src/petstore/__init__.py:
+    last_write_checksum: sha1:da077c0bdfcef64a4a5aea91a17292f72fa2b088
+  src/petstore/_hooks/__init__.py:
+    last_write_checksum: sha1:e3111289afd28ad557c21d9e2f918caabfb7037d
+  src/petstore/_hooks/sdkhooks.py:
+    last_write_checksum: sha1:0b91732cbcd4101b6f174aee9fbc3d459bbc0214
+  src/petstore/_hooks/types.py:
+    last_write_checksum: sha1:8904ea1a0438dbbe18e1b2aaf7c0dcce86a0c86a
+  src/petstore/_version.py:
+    last_write_checksum: sha1:6edb9681e7d8acc11b4f1ec3408e81005045497e
+  src/petstore/basesdk.py:
+    last_write_checksum: sha1:0531905cd55198b9bf76a45de218a350c7ae8fa8
+  src/petstore/errors/__init__.py:
+    last_write_checksum: sha1:3924951855ebdf118d0488eb654a1b6a48ed03d8
+  src/petstore/errors/apierror.py:
+    last_write_checksum: sha1:600112b13eec3a7e6909038aa9bd5b36272ca0a3
+  src/petstore/errors/apierrorinvalidinput.py:
+    last_write_checksum: sha1:1696d95a7c4bad410aa10df3c122df1be7e25c9a
+  src/petstore/errors/apierrornotfound.py:
+    last_write_checksum: sha1:62d118163db5ba7d9bda1617ed86673ff75b34a4
+  src/petstore/errors/apierrorunauthorized.py:
+    last_write_checksum: sha1:9c9ddaeaa8b1e5431548418def0e779b628663fc
+  src/petstore/errors/no_response_error.py:
+    last_write_checksum: sha1:7f326424a7d5ae1bcd5c89a0d6b3dbda9138942f
+  src/petstore/errors/petstoreerror.py:
+    last_write_checksum: sha1:44bad1f70a334881d29280ae51aebb7ed9b7ee61
+  src/petstore/errors/responsevalidationerror.py:
+    last_write_checksum: sha1:602ef8e5fb7b56a57ee3d83db8468619772a27a4
+  src/petstore/httpclient.py:
+    last_write_checksum: sha1:5e55338d6ee9f01ab648cad4380201a8a3da7dd7
+  src/petstore/models/__init__.py:
+    last_write_checksum: sha1:0a12cd61bade26dd2e5fa8cac3ff68e86e36d45f
+  src/petstore/models/apiresponse.py:
+    last_write_checksum: sha1:a7ac181371dd5f63758c8fe06d75571e2a8bbcfa
+  src/petstore/models/category.py:
+    last_write_checksum: sha1:e5d2862a8da51ee6cd3fd5b08596a02fcb66b560
+  src/petstore/models/deleteorderop.py:
+    last_write_checksum: sha1:057eccc97b4c6d50597b0db443946a6c4b2fd608
+  src/petstore/models/deletepetop.py:
+    last_write_checksum: sha1:63acfb690ca42bf8820f792a2887c688b3b410cb
+  src/petstore/models/deleteuserop.py:
+    last_write_checksum: sha1:e898c8b8c2dd0b74a19307ca7050a0eee171a8c3
+  src/petstore/models/findpetsbystatusop.py:
+    last_write_checksum: sha1:6979f4f105102d0b7a529cd374bd2867da332595
+  src/petstore/models/findpetsbytagsop.py:
+    last_write_checksum: sha1:def632a1ee866d3d8881bdaadee802d12486d1bd
+  src/petstore/models/getorderbyidop.py:
+    last_write_checksum: sha1:8a4d5581cc298a9a2d4e7ec7fbc04173bb2430df
+  src/petstore/models/getpetbyidop.py:
+    last_write_checksum: sha1:e3f28e4dce87b099b67d3467d431d24e497f13aa
+  src/petstore/models/getuserbynameop.py:
+    last_write_checksum: sha1:69cb6d0c60e4810d3e8295d4ad4d1ec492395323
+  src/petstore/models/loginuserop.py:
+    last_write_checksum: sha1:726aee16385f182cfd65d3c3bf5c916887c0ab6b
+  src/petstore/models/order.py:
+    last_write_checksum: sha1:60393d7f554baa3ab1bc3085539d958795d9beed
+  src/petstore/models/pet.py:
+    last_write_checksum: sha1:98ddd9bb6c30cf86b416ae2746e3e17109cb00a8
+  src/petstore/models/security.py:
+    last_write_checksum: sha1:abf91121286e702b5e01a6aa15d7cc9ffec91dfe
+  src/petstore/models/tag.py:
+    last_write_checksum: sha1:f09c459510ee3856199395e12ecc59d8662f792a
+  src/petstore/models/updateuserop.py:
+    last_write_checksum: sha1:10671a9123e479e91d695d738eeed4aa6c61668b
+  src/petstore/models/uploadfileop.py:
+    last_write_checksum: sha1:7ea9181667595791d400caf351390f6a680ad590
+  src/petstore/models/user.py:
+    last_write_checksum: sha1:07010cbf545e3cfa275218a9af1bc38c6bf4475c
+  src/petstore/pet_sdk.py:
+    last_write_checksum: sha1:e27dd1aaf7d0e399d688756ed91b6de4393fc779
+  src/petstore/py.typed:
+    last_write_checksum: sha1:8efc425ffe830805ffcc0f3055871bdcdc542c60
+  src/petstore/sdk.py:
+    last_write_checksum: sha1:418574e5021c76ae1a4317fea8f57f848eecbea4
+  src/petstore/sdkconfiguration.py:
+    last_write_checksum: sha1:0dbb413f4fc4896ec0fa5c92507a4ad22d6d8fa4
+  src/petstore/store.py:
+    last_write_checksum: sha1:2edc8893fc3078d7e748eee27c40f73ab070bc54
+  src/petstore/types/__init__.py:
+    last_write_checksum: sha1:f9ad14217f832e74f594285960125add50324be9
+  src/petstore/types/base64fileinput.py:
+    last_write_checksum: sha1:4780e893d3853b5a6e28d9a6ca3ee102ce0f502d
+  src/petstore/types/basemodel.py:
+    last_write_checksum: sha1:10d84aedeb9d35edfdadf2c3020caa1d24d8b584
+  src/petstore/user_sdk.py:
+    last_write_checksum: sha1:3f22189c996aa496f2938ca120216571afc9bbd3
+  src/petstore/utils/__init__.py:
+    last_write_checksum: sha1:0f93d821f9cb3e061ea125d881bb6f61166738dd
+  src/petstore/utils/annotations.py:
+    last_write_checksum: sha1:a4824ad65f730303e4e1e3ec1febf87b4eb46dbc
+  src/petstore/utils/datetimes.py:
+    last_write_checksum: sha1:c721e4123000e7dc61ec52b28a739439d9e17341
+  src/petstore/utils/dynamic_imports.py:
+    last_write_checksum: sha1:a1940c63feb8eddfd8026de53384baf5056d5dcc
+  src/petstore/utils/enums.py:
+    last_write_checksum: sha1:bc8c3c1285ae09ba8a094ee5c3d9c7f41fa1284d
+  src/petstore/utils/eventstreaming.py:
+    last_write_checksum: sha1:620d78a8b4e3b854e08d136e02e40a01a786bd70
+  src/petstore/utils/forms.py:
+    last_write_checksum: sha1:15fa7e9ab1611e062a9984cf06cb20969713d295
+  src/petstore/utils/headers.py:
+    last_write_checksum: sha1:7c6df233ee006332b566a8afa9ce9a245941d935
+  src/petstore/utils/logger.py:
+    last_write_checksum: sha1:4073cd4939ee92a9431f036d940dcf25505927a9
+  src/petstore/utils/metadata.py:
+    last_write_checksum: sha1:e703e5cbb5255144aacf86898d1420529afaaff8
+  src/petstore/utils/queryparams.py:
+    last_write_checksum: sha1:b94c3f314fd3da0d1d215afc2731f48748e2aa59
+  src/petstore/utils/requestbodies.py:
+    last_write_checksum: sha1:41e2d2d2d3ecc394c8122ca4d4b85e1c3e03f054
+  src/petstore/utils/retries.py:
+    last_write_checksum: sha1:471372f5c5d1dd5583239c9cf3c75f1b636e5d87
+  src/petstore/utils/security.py:
+    last_write_checksum: sha1:5ce897e557df5b8fcbc5db51788fa7c52b0c5d17
+  src/petstore/utils/serializers.py:
+    last_write_checksum: sha1:61009f2e4ef6613a1a5af813fe020373dae5a492
+  src/petstore/utils/unmarshal_json_response.py:
+    last_write_checksum: sha1:de26edbcf035a69b91a24521019a64b7858c031e
+  src/petstore/utils/url.py:
+    last_write_checksum: sha1:6479961baa90432ca25626f8e40a7bbc32e73b41
+  src/petstore/utils/values.py:
+    last_write_checksum: sha1:acaa178a7c41ddd000f58cc691e4632d925b2553
+  tests/__init__.py:
+    last_write_checksum: sha1:cffdfca8e87b9acc39f414eddf64d233ba5fe450
+  tests/conftest.py:
+    last_write_checksum: sha1:491c49c033b7c43cb406e4c5b1ffffebb41713f3
+  tests/mockserver/.gitignore:
+    last_write_checksum: sha1:228e1b05712a973948fd771323a2140a3b355ff4
+  tests/mockserver/Dockerfile:
+    last_write_checksum: sha1:72b74bf83cc79b4436ffe1a33211198ea447f06a
+  tests/mockserver/Makefile:
+    last_write_checksum: sha1:f2619d7634d211c3c01dd68668635b0ebdbfc1ea
+  tests/mockserver/README.md:
+    last_write_checksum: sha1:aa2bb9124570a1c12a3c81d728100c305a59220c
+  tests/mockserver/go.mod:
+    last_write_checksum: sha1:f8aad99ce7fffc60beb4bd24be52c32d0d1d9913
+  tests/mockserver/go.sum:
+    last_write_checksum: sha1:cdeb52f5f4c63d07ba612730867a95b0ddb14b2d
+  tests/mockserver/internal/handler/assert/contenttype.go:
+    last_write_checksum: sha1:2d059a68e53e70b269ddf897f8c6017f94434e18
+  tests/mockserver/internal/handler/assert/header.go:
+    last_write_checksum: sha1:a0866dfd740d218b5b94741ac92db4cdf5a2acd9
+  tests/mockserver/internal/handler/assert/parameter.go:
+    last_write_checksum: sha1:0df39c0981a929c99ae767201b628d8c9e31f288
+  tests/mockserver/internal/handler/assert/pointer.go:
+    last_write_checksum: sha1:48714196fb47649be28e8df031761038a9e10ee6
+  tests/mockserver/internal/handler/assert/security.go:
+    last_write_checksum: sha1:3cee6e3d2babea02486fd2df08eb00840f5ddea9
+  tests/mockserver/internal/handler/doc.go:
+    last_write_checksum: sha1:a49b83f9fc775d3cc6f558b0f52b2fc9cf04f863
+  tests/mockserver/internal/handler/generated_handler.go:
+    last_write_checksum: sha1:32101ddff940c59f43a805af303cf645a2bcca0d
+  tests/mockserver/internal/handler/generated_handlers.go:
+    last_write_checksum: sha1:527def1fde6dec82edb13a44ed4430628f3bab03
+  tests/mockserver/internal/handler/pathdeletepetpetid.go:
+    last_write_checksum: sha1:24e78d6f8cbca046e4551a108eece32333b3c36c
+  tests/mockserver/internal/handler/pathdeletestoreorderorderid.go:
+    last_write_checksum: sha1:a200faf137ab7fc8e2ba626c84b6b5c61113aef3
+  tests/mockserver/internal/handler/pathdeleteuserusername.go:
+    last_write_checksum: sha1:90885bfca58bf758e34362187e1060064f73e25c
+  tests/mockserver/internal/handler/pathgetpetfindbystatus.go:
+    last_write_checksum: sha1:7bdea99e86112bf482452b39c4b68400fb5ccf54
+  tests/mockserver/internal/handler/pathgetpetfindbytags.go:
+    last_write_checksum: sha1:52374ff21da00c59c0ca3d79b515d1b1beb40443
+  tests/mockserver/internal/handler/pathgetpetpetid.go:
+    last_write_checksum: sha1:1a1ca23c5773657945e46b8b9e8f0c02d5faa5cb
+  tests/mockserver/internal/handler/pathgetstoreinventory.go:
+    last_write_checksum: sha1:b4f50aafb7baea29e7ec5d61b7a933c88c918e08
+  tests/mockserver/internal/handler/pathgetstoreorderorderid.go:
+    last_write_checksum: sha1:1443dfe7b332eec3ea67fff5c27e83dc286adc1a
+  tests/mockserver/internal/handler/pathgetuserlogin.go:
+    last_write_checksum: sha1:8a02400c568ef35312ccfffccb5aa6d555674c30
+  tests/mockserver/internal/handler/pathgetuserusername.go:
+    last_write_checksum: sha1:3f559d28825dfc32abe949fd7b4cb1558f389b93
+  tests/mockserver/internal/handler/pathpostpet.go:
+    last_write_checksum: sha1:4e8f0a41b2c1a123928f67403a4bc5bcccb36973
+  tests/mockserver/internal/handler/pathpostpetpetiduploadimage.go:
+    last_write_checksum: sha1:ccd70516d484b60705b05c0ae68865e9f402fec7
+  tests/mockserver/internal/handler/pathpoststoreorder.go:
+    last_write_checksum: sha1:44f5b787a222e9e2e46b64be7a2307690411c421
+  tests/mockserver/internal/handler/pathpostuser.go:
+    last_write_checksum: sha1:34114e0c1324ae076a767394e89ee2223ad273f1
+  tests/mockserver/internal/handler/pathpostusercreatewithlist.go:
+    last_write_checksum: sha1:4a4a4e1554bc4902887e6477e00bafe047abd473
+  tests/mockserver/internal/handler/pathputpet.go:
+    last_write_checksum: sha1:815c4650a12ffaf6fb41231370da5fe2cf10b08f
+  tests/mockserver/internal/handler/values/files.go:
+    last_write_checksum: sha1:e1e9d78c165e2a35d165f120bd8dcd7b42c33a33
+  tests/mockserver/internal/logging/doc.go:
+    last_write_checksum: sha1:63a119620f179826356304b8205756248caa370e
+  tests/mockserver/internal/logging/formats.go:
+    last_write_checksum: sha1:e84e84e6e62a4dc3b9ad3a7f2a95eb77374f2fcd
+  tests/mockserver/internal/logging/http_file.go:
+    last_write_checksum: sha1:e948142b98821c23bd21c128e007e79a193114a2
+  tests/mockserver/internal/logging/http_logger.go:
+    last_write_checksum: sha1:7a2267a61cb1282405ed7f406f9bd95fbf796b5b
+  tests/mockserver/internal/logging/levels.go:
+    last_write_checksum: sha1:164f3aee47030d3534e4ef2df31192304e9ea97b
+  tests/mockserver/internal/logging/logger.go:
+    last_write_checksum: sha1:92027a7d11dd84831bc444aa2d018cbb7195542f
+  tests/mockserver/internal/logging/oas_operation.go:
+    last_write_checksum: sha1:af9187f31972ef308fb4bc82de73d6dd71b9fb64
+  tests/mockserver/internal/logging/oas_operation_call.go:
+    last_write_checksum: sha1:1ec2244b5fc171dfe7e4e339420b2b17f0df48c9
+  tests/mockserver/internal/sdk/models/components/apiresponse.go:
+    last_write_checksum: sha1:9c6e0b342a92cfb671be0560f9ba7e33ce880a2c
+  tests/mockserver/internal/sdk/models/components/category.go:
+    last_write_checksum: sha1:306c93d389a487f7ba5e28654357224369aa41b8
+  tests/mockserver/internal/sdk/models/components/httpmetadata.go:
+    last_write_checksum: sha1:9e4b58e3bb54db4360421109c2e169741499be16
+  tests/mockserver/internal/sdk/models/components/order.go:
+    last_write_checksum: sha1:27b55cb454f3e17df4cadaec7ba33b8fda2b7ea4
+  tests/mockserver/internal/sdk/models/components/pet.go:
+    last_write_checksum: sha1:b7e463df0b45418e1ed89be81a47d67ebf3acae1
+  tests/mockserver/internal/sdk/models/components/security.go:
+    last_write_checksum: sha1:bb56aac9e1c58ddc6ebcd3760efe632f34d33018
+  tests/mockserver/internal/sdk/models/components/tag.go:
+    last_write_checksum: sha1:ed44ac35009ebd75cc3b5b98f2aef236646184b8
+  tests/mockserver/internal/sdk/models/components/user.go:
+    last_write_checksum: sha1:3da0ad685f3a16fc873f6705e877bb32c5078d40
+  tests/mockserver/internal/sdk/models/operations/addpet.go:
+    last_write_checksum: sha1:8bcf094494ebc7fd3e9582ae77a15926e9f22ada
+  tests/mockserver/internal/sdk/models/operations/createuser.go:
+    last_write_checksum: sha1:63d1d169141a59d5973f345f1cb00136f8cbfa2b
+  tests/mockserver/internal/sdk/models/operations/createuserswithlistinput.go:
+    last_write_checksum: sha1:f1971c00f833b3f31ee7bdd740f9ceeec23d791e
+  tests/mockserver/internal/sdk/models/operations/deleteorder.go:
+    last_write_checksum: sha1:42ed756f64fe76f29fd6b526813bc62edf519fd8
+  tests/mockserver/internal/sdk/models/operations/deletepet.go:
+    last_write_checksum: sha1:ecebe65f8db85796f01aca8fc92b70b0eed8a559
+  tests/mockserver/internal/sdk/models/operations/deleteuser.go:
+    last_write_checksum: sha1:e760ebd88ea0b8cfcf2cb23ed846c62de02e9504
+  tests/mockserver/internal/sdk/models/operations/findpetsbystatus.go:
+    last_write_checksum: sha1:cf700a165d5bd9e115c24eaa1a2c6fd0e0411c4f
+  tests/mockserver/internal/sdk/models/operations/findpetsbytags.go:
+    last_write_checksum: sha1:da8d88814a0bbc5eba017b33164c1c58552390b6
+  tests/mockserver/internal/sdk/models/operations/getinventory.go:
+    last_write_checksum: sha1:7ed4e5911d04e0e8134aeabf58066dff1e8d2037
+  tests/mockserver/internal/sdk/models/operations/getorderbyid.go:
+    last_write_checksum: sha1:e3721f29e2cca18731e92927e4b29f9bcfc3c821
+  tests/mockserver/internal/sdk/models/operations/getpetbyid.go:
+    last_write_checksum: sha1:85f2c1432ea2491c8c330677cfda11730b0eb192
+  tests/mockserver/internal/sdk/models/operations/getuserbyname.go:
+    last_write_checksum: sha1:e07c6eb4cb73799a334af6dd18c78063ffc005d8
+  tests/mockserver/internal/sdk/models/operations/loginuser.go:
+    last_write_checksum: sha1:586bd17335af9994c1cf557c83f854a7ea220a54
+  tests/mockserver/internal/sdk/models/operations/logoutuser.go:
+    last_write_checksum: sha1:16dac109a2c95cfc046b4b1d411145207a2f0e78
+  tests/mockserver/internal/sdk/models/operations/placeorder.go:
+    last_write_checksum: sha1:a3b795762bc0bc4112ca8e3b5cc2a8319cb2babb
+  tests/mockserver/internal/sdk/models/operations/updatepet.go:
+    last_write_checksum: sha1:0acfabf06da7bad6c3efa45629d837b2b542c823
+  tests/mockserver/internal/sdk/models/operations/updateuser.go:
+    last_write_checksum: sha1:c16dc9daf796fb45f80af9115a05ffc19b0e20b8
+  tests/mockserver/internal/sdk/models/operations/uploadfile.go:
+    last_write_checksum: sha1:53b5e1636c2cc3af0b4e08f5f0a87813b2d8b099
+  tests/mockserver/internal/sdk/models/sdkerrors/apierrorinvalidinput.go:
+    last_write_checksum: sha1:58eaf20d44ff02aa312db348793f097fe3ddfe8f
+  tests/mockserver/internal/sdk/models/sdkerrors/apierrornotfound.go:
+    last_write_checksum: sha1:9475f4eab72180c98f0984171f0a06704a03925a
+  tests/mockserver/internal/sdk/models/sdkerrors/apierrorunauthorized.go:
+    last_write_checksum: sha1:fb29cc32dfc71d12d09c630d524da7e133655506
+  tests/mockserver/internal/sdk/optionalnullable/optionalnullable.go:
+    last_write_checksum: sha1:aa5ff815f31a3657487ad5e0c3f023f573b1fcab
+  tests/mockserver/internal/sdk/optionalnullable/optionalnullable_test.go:
+    last_write_checksum: sha1:c0ca755fb35acd8f838567e22c2b5722592fe1c3
+  tests/mockserver/internal/sdk/types/bigint.go:
+    last_write_checksum: sha1:49b004005d0461fb04b846eca062b070b0360b31
+  tests/mockserver/internal/sdk/types/date.go:
+    last_write_checksum: sha1:3036a2e1ed15a1d484c093367eba000c38f384d0
+  tests/mockserver/internal/sdk/types/datetime.go:
+    last_write_checksum: sha1:196d050af6450669214e9ae4fd28e56263ae2b5d
+  tests/mockserver/internal/sdk/types/decimal.go:
+    last_write_checksum: sha1:54f1f8c0d89d6ef048805121f97c6937404c5d51
+  tests/mockserver/internal/sdk/types/jsonl/jsonl.go:
+    last_write_checksum: sha1:15fb778e0fa6c7b4c228431af3d03b9819b8fd94
+  tests/mockserver/internal/sdk/types/pointers.go:
+    last_write_checksum: sha1:fc2275ea006257ba9ba4ff6f2a2cdb6205371eef
+  tests/mockserver/internal/sdk/utils/json.go:
+    last_write_checksum: sha1:2c860aa8b53b7d38c20290854c880368ce4fe0ec
+  tests/mockserver/internal/sdk/utils/reflect.go:
+    last_write_checksum: sha1:1e3a0ca0387685b6b21c0a6a75650b8611c76ee3
+  tests/mockserver/internal/sdk/utils/sort.go:
+    last_write_checksum: sha1:a9d390de086ad13841c7d154e97d314e6ae2d285
+  tests/mockserver/internal/server/doc.go:
+    last_write_checksum: sha1:71ca1bebc409ffcb7ed573f4bfc85f1d2cb76252
+  tests/mockserver/internal/server/generated_handlers.go:
+    last_write_checksum: sha1:dbaa2e7beedda2a3e0ef373939f0424577cb2666
+  tests/mockserver/internal/server/internal_handlers.go:
+    last_write_checksum: sha1:1c79af9ee45c9bde435f5acc711bc48c9f66315e
+  tests/mockserver/internal/server/server.go:
+    last_write_checksum: sha1:d97000314c64b937ff7a243cbc051c5591ab8722
+  tests/mockserver/internal/server/server_option.go:
+    last_write_checksum: sha1:f787e17525cbaed4d6881d02562da66a1deda9c0
+  tests/mockserver/internal/server/templates/log/index.html.tmpl:
+    last_write_checksum: sha1:7c3fc6e6b03d80e05bc586ade52ddcb8adaee148
+  tests/mockserver/internal/server/templates/log/operation.html.tmpl:
+    last_write_checksum: sha1:ab2894028c76b25dfe613d743a243bfd04fb279c
+  tests/mockserver/internal/server/templates/log/style.css.tmpl:
+    last_write_checksum: sha1:474c79a94fa7d2671135e078a71c51b11f38bfae
+  tests/mockserver/internal/tracking/requesttracker.go:
+    last_write_checksum: sha1:09963693aae5446c247cac171c284f2cdf7cfa4d
+  tests/mockserver/main.go:
+    last_write_checksum: sha1:1267817b54decac7af35c5db3f4d865eb628547d
+  tests/test_client.py:
+    last_write_checksum: sha1:df970d19cdb9f9e057722699dc73965b6f9b1758
+  tests/test_pet_sdk.py:
+    last_write_checksum: sha1:0b4b14330d4837b9f07ec03ae562268bbe3c01bb
+  tests/test_store.py:
+    last_write_checksum: sha1:0806e88da64ee9279e36f05699f9738187f002b3
+  tests/test_user_sdk.py:
+    last_write_checksum: sha1:87f7f6ba07bd7961e75c49859eebc0160212bcf3
